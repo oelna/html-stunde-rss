@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Title of Podcast</title>
+		<link>http://example.com/podcast/</link>
+		<language>de-de</language>
+		<description>Description of podcast.</description>
+
+		<itunes:author>Arno Richter</itunes:author>
+		<itunes:owner>
+			<itunes:name>Arno Richter</itunes:name>
+			<itunes:email>mail@arnorichter.de</itunes:email>
+		</itunes:owner>
+		<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
+		<itunes:summary>Description of podcast.</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:image href="http://example.com/podcast/icon.jpg" />
+		<itunes:category text="Health"/></itunes:category>
+
+		<item>
+			<title>Second Episode</title>
+			<link>http://example.com/podcast/episode-2/index.html</link>
+			<enclosure url="http://example.com/podcast/episode-2/ep2.mp3" type="audio/mpeg" length="20480049"></enclosure>
+			<pubDate>Mon, 02 Sep 02 12:37:22 +0000</pubDate>
+			<guid>http://example.com/podcast/episode-2/index.html</guid>
+			<description>Description of episode number two</description>
+
+			<itunes:summary>Description of episode number two</itunes:summary>
+			<itunes:author>Arno Richter</itunes:author>
+			<itunes:duration>00:32:16</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+		</item>
+
+		<item>
+			<title>First Episode</title>
+			<link>http://example.com/podcast/episode-1/index.html</link>
+			<enclosure url="http://example.com/podcast/episode-1/ep1.mp3" type="audio/mpeg" length="39402930"></enclosure>
+			<pubDate>Sun, 01 Sep 02 09:39:15 +0000</pubDate>
+			<guid isPermaLink="false">513abd:71e4b0:fe58</guid>
+			<description>Description of our first episode</description>
+
+			<itunes:summary>Description of our first episode</itunes:summary>
+			<itunes:author>Rainer Diehl</itunes:author>
+			<itunes:duration>00:28:34</itunes:duration>
+			<itunes:explicit>yes</itunes:explicit>
+		</item>
+	</channel>
+</rss>
