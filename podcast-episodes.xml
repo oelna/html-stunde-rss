@@ -6,6 +6,7 @@
 		<language>de-de</language>
 		<description>Description of podcast.</description>
 
+		<!-- Zusätzliche Elemente speziell für den iTunes-Podcast-Index -->
 		<itunes:author>Arno Richter</itunes:author>
 		<itunes:owner>
 			<itunes:name>Arno Richter</itunes:name>
@@ -14,20 +15,21 @@
 		<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
 		<itunes:summary>Description of podcast.</itunes:summary>
 		<itunes:explicit>no</itunes:explicit>
-		<itunes:image href="http://example.com/podcast/icon.jpg" />
+		<itunes:image href="http://example.com/podcast/icon.jpg" /><!-- 1400x1400, <500kB -->
 		<itunes:category text="Health"/></itunes:category>
 
 		<item>
 			<title>Second Episode</title>
 			<link>http://example.com/podcast/episode-2/index.html</link>
 			<enclosure url="http://example.com/podcast/episode-2/ep2.mp3" type="audio/mpeg" length="20480049"></enclosure>
-			<pubDate>Mon, 02 Sep 02 12:37:22 +0000</pubDate>
-			<guid>http://example.com/podcast/episode-2/index.html</guid>
+			<pubDate>Mon, 02 Sep 02 12:37:22 +0000</pubDate><!-- Datum und Uhrzeit nach RFC 822 -->
+			<guid>http://example.com/podcast/episode-2/index.html</guid><!-- Einzigartige Kennung, hier: Permalink -->
 			<description>Description of episode number two</description>
 
+			<!-- Zusätzliche Elemente speziell für den iTunes-Podcast-Index -->
 			<itunes:summary>Description of episode number two</itunes:summary>
 			<itunes:author>Arno Richter</itunes:author>
-			<itunes:duration>00:32:16</itunes:duration>
+			<itunes:duration>00:32:16</itunes:duration><!-- Länge der Datei in Stunden:Minuten:Sekunden -->
 			<itunes:explicit>no</itunes:explicit>
 		</item>
 
@@ -36,7 +38,7 @@
 			<link>http://example.com/podcast/episode-1/index.html</link>
 			<enclosure url="http://example.com/podcast/episode-1/ep1.mp3" type="audio/mpeg" length="39402930"></enclosure>
 			<pubDate>Sun, 01 Sep 02 09:39:15 +0000</pubDate>
-			<guid isPermaLink="false">513abd:71e4b0:fe58</guid>
+			<guid isPermaLink="false">tag:example.com,2002:podcast:ep1</guid><!-- Einzigartige Kennung, hier: RFC 4151 tag URI  -->
 			<description>Description of our first episode</description>
 
 			<itunes:summary>Description of our first episode</itunes:summary>
