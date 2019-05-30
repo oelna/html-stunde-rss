@@ -2,12 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Example Feed</title>
 	<link href="http://example.com/" />
-	<id>http://example.com/</id>
-	<updated>2003-12-13T18:30:02Z</updated>
+	<id>http://example.com/</id><!-- Einzigartige Kennung, zB. Permalink, oder besser: GUID oder RFC 4151 tag URI -->
+	<updated>2003-12-13T18:30:02Z</updated><!-- Datum und Uhrzeit nach RFC 3339 -->
 	<author>
 		<name>Arno Richter</name>
 	</author>
 	
+	<!-- entry Element für jeden Eintrag -->
 	<entry>
 		<title>News for September the Second</title>
 		<link href="http://example.com/2002/09/02/index.html" />
