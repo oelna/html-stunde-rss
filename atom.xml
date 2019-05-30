@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Example Feed</title>
+	<link href="http://example.com/" />
+	<id>http://example.com/</id>
+	<updated>2003-12-13T18:30:02Z</updated>
+	<author>
+		<name>Arno Richter</name>
+	</author>
+	
+	<entry>
+		<title>News for September the Second</title>
+		<link href="http://example.com/2002/09/02/index.html" />
+		<id>http://example.com/2002/09/02/index.html</id>
+		<summary>other things happened today</summary>
+		<updated>2002-09-02T12:37:22+00:00</updated>
+		<published>2002-09-02T12:37:22+00:00</published>
+	</entry>
+	
+	<entry>
+		<title>News for September the First</title>
+		<link href="http://example.com/2002/09/01/index.html" />
+		<id>http://example.com/2002/09/01/index.html</id>
+		<summary>things happened today</summary>
+		<updated>2002-09-01T11:15:04+00:00</updated>
+		<published>2002-09-01T09:39:15+00:00</published>
+	</entry>
+</feed>
